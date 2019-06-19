@@ -19,29 +19,30 @@ Unnecessary: skimage, opencv-python(cv2)
 
 
 ## Getting Started
+Try the high performance code written by me
+```
+python3 demo_modify.py
 
-Try the Code written by the original author
+# You can change the input_image_path in this way. ↓
+class Args(object):  
+    input_image_path = 'image/woof.jpg'  # image/coral.jpg image/tiger.jpg
+```
+  
+
+Or you want to try the Code written by the original author
 ```
 python3 demo_origin.py 
 python3 demo_origin.py --input image/woof.jpg
 ```
-
-You can change the input_image_path in this way. ↓
-```
-class Args(object):  
-    input_image_path = 'image/woof.jpg'  # image/coral.jpg image/tiger.jpg
-```
-Try the high performance code written by me
-`python3 demo_modify.py`
-
-
-
+  
 Run this demo, and press WASDQE to adjust the parameters.
 The image show in the GUI, and the parameters show in terminal in real time.
 W,S --> parameter 1
 A,D --> parameter 2
 Q,E --> parameter 3
-`python3 demo_pre_seg__felz_slic.py`
+```
+python3 demo_pre_seg__felz_slic.py
+```
 
 
 
