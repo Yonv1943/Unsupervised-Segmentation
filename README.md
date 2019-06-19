@@ -6,33 +6,45 @@ Paper: https://kanezaki.github.io/pytorch-unsupervised-segmentation/ICASSP2018_k
 
 Original version Github: https://github.com/kanezaki/pytorch-unsupervised-segmentation
 
+
+
+
 ## Requement
+
 Necessary: Python 3, Torch 0.4
+
 Unnecessary: skimage, opencv-python(cv2)
 
+
+
+
 ## Getting Started
+
+Try the Code written by the original author
 ```
-# Try the Code written by the original author
 python3 demo_origin.py 
 python3 demo_origin.py --input image/woof.jpg
-
-
-# Try the high performance code written by me
-# You can change the input_image_path in this way. ↓
-# class Args(object):  
-#     input_image_path = 'image/woof.jpg'  # image/coral.jpg image/tiger.jpg
-python3 demo_modify.py
-
-
-# Run this demo, and press WASDQE to adjust the parameters.
-# The image show in the GUI, and the parameters show in terminal in real time.
-# W,S --> parameter 1
-# A,D --> parameter 2
-# Q,E --> parameter 3
-python3 demo_pre_seg__felz_slic.py
-
-
 ```
+
+You can change the input_image_path in this way. ↓
+```
+class Args(object):  
+    input_image_path = 'image/woof.jpg'  # image/coral.jpg image/tiger.jpg
+```
+Try the high performance code written by me
+`python3 demo_modify.py`
+
+
+
+Run this demo, and press WASDQE to adjust the parameters.
+The image show in the GUI, and the parameters show in terminal in real time.
+W,S --> parameter 1
+A,D --> parameter 2
+Q,E --> parameter 3
+`python3 demo_pre_seg__felz_slic.py`
+
+
+
 
 ## Translate 翻译
 
