@@ -49,15 +49,27 @@ python3 demo_pre_seg__felz_slic.py
 
 ## Preview
 The iterative process: Save the result when the iter_number == 1,2,4,8,16,32,64,128.
+
 ![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/coral_128.gif "coral")
+
 ![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/tiger_128.gif "tiger")
+
 ![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/woof_128.gif "woof")
   
 
 
 The different result of **Algorithm felz** or **Algorithm slic** with different parameters.
 
+The left picture: compactness = 10000
+
+The right picture: compactness = 1000
+
 ![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/tiger_compactness.jpg "tiger_compactness")
+
+The left picture: **Algorithm slic**
+
+The right picture:  **Algorithm felz**
+
 ![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/tiger_felz_slic.jpg "tiger_felz_slic")
 
 
@@ -72,3 +84,6 @@ The different result of **Algorithm felz** or **Algorithm slic** with different 
 #### An implementation of **Unsupervised Image Segmentation by Backpropagation**
 #### 无监督图片语义分割，复现并魔改Github上的项目 https://zhuanlan.zhihu.com/p/68528056
 
+
+#### In my opinion, this algorithm is well suited for unsupervised segmentation of satellite images, because satellite images have no directionality. It is suitable for this algorithm with a priori assumption. (Priori Assumptions: In general, the regions with the same semantic information on the satellite images tend to occurs in a continuous area)
+#### 这个算法很适合做 卫星图片的无监督语义分割任务，因为卫星地图没有方向性，并且地图上带有相同语义信息的区域往往是出现在一起的（符合先验假设）。很适合这种带有这种的先验假设算法。
