@@ -16,8 +16,13 @@ Unnecessary: skimage, opencv-python(cv2)
 python3 demo_origin.py 
 python3 demo_origin.py --input image/woof.jpg
 
+
 # Try the high performance code written by me
+# You can change the input_image_path in this way. ↓
+# class Args(object):  
+#     input_image_path = 'image/woof.jpg'  # image/coral.jpg image/tiger.jpg
 python3 demo_modify.py
+
 
 # Run this demo, and press WASDQE to adjust the parameters.
 # The image show in the GUI, and the parameters show in terminal in real time.
@@ -25,9 +30,11 @@ python3 demo_modify.py
 # A,D --> parameter 2
 # Q,E --> parameter 3
 python3 demo_pre_seg__felz_slic.py
+
+
 ```
 
-## Discussion
+## Translate 翻译
 
 #### If you can understand English, then I know you can understand this line of words (and you see this line on GitHub.)
 #### 如果你可以看的懂中文，那么我对这个算法的分析写在知乎上了（或者你是从知乎过来的）
