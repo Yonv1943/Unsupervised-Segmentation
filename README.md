@@ -1,5 +1,5 @@
 ## Unsupervised-Segmentation
-### An impermentation of Unsupervised Image Segmentation by Backpropagation  - Asako Kanezaki 金崎朝子 （東京大学）
+### An implementation of **Unsupervised Image Segmentation by Backpropagation  - Asako Kanezaki 金崎朝子** （東京大学）
 #### **But faster and more elegant than origin version. (speed up from 30s to 5s)**
 
 Paper: https://kanezaki.github.io/pytorch-unsupervised-segmentation/ICASSP2018_kanezaki.pdf
@@ -26,6 +26,11 @@ python3 demo_modify.py
 python3 demo_pre_seg__felz_slic.py
 ```
 
-#### 如果你可以看的懂中文，那么我对这个算法的分析写在知乎上了，有兴趣就去看看吧（或者你是从知乎过来的）
-#### 
-#### If you can understand English, then I know you can understand this line of words.
+## Discussion
+
+#### If you can understand English, then I know you can understand this line of words (and you see this line on GitHub.)
+#### 如果你可以看的懂中文，那么我对这个算法的分析写在知乎上了（或者你是从知乎过来的）
+
+#### An implementation of **Unsupervised Image Segmentation by Backpropagation**
+#### 无监督图片语义分割，复现并魔改Github上的项目 https://zhuanlan.zhihu.com/p/68528056
+
