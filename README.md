@@ -2,11 +2,14 @@
 ### An implementation of **Unsupervised Image Segmentation by Backpropagation  - Asako Kanezaki 金崎朝子** （東京大学）ICASSP. 2018. 
 ### **Faster and more elegant than origin version. Speed up, 30s(origin) --> 5s(modify)**
 
+![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/ICASSP2018_modify.png "modify_title")
+
+
 Paper: https://kanezaki.github.io/pytorch-unsupervised-segmentation/ICASSP2018_kanezaki.pdf
 
 Original version Github: https://github.com/kanezaki/pytorch-unsupervised-segmentation
 
-
+An Interpretation of this algorithm: https://zhuanlan.zhihu.com/p/68528056 (Warning: Simplified Chinese)
 
 
 ## Requement
@@ -43,6 +46,21 @@ You could choose **Algorithm felz** or **Algorithm slic** by commenting the code
 ```
 python3 demo_pre_seg__felz_slic.py
 ```
+
+## Preview
+The iterative process: Save the result when the iter_number == 1,2,4,8,16,32,64,128.
+![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/coral_128.gif "coral")
+![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/tiger_128.gif "tiger")
+![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/woof_128.gif "woof")
+  
+
+
+The different result of **Algorithm felz** or **Algorithm slic** with different parameters.
+
+![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/tiger_compactness.jpg "tiger_compactness")
+![](https://github.com/Yonv1943/Unsupervised-Segmentation/blob/master/readme_image/tiger_felz_slic.jpg "tiger_felz_slic")
+
+
 
 
 ## Translate 翻译
