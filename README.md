@@ -3,6 +3,7 @@
 #### **But faster and more elegant than origin version. (speed up from 30s to 5s)**
 
 Paper: https://kanezaki.github.io/pytorch-unsupervised-segmentation/ICASSP2018_kanezaki.pdf
+
 Original version Github: https://github.com/kanezaki/pytorch-unsupervised-segmentation
 
 ## Requement
