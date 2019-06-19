@@ -23,8 +23,7 @@ Try the high performance code written by me
 ```
 python3 demo_modify.py
 
-# You can change the input_image_path in this way. ↓
-class Args(object):  
+class Args(object):  # You can change the input_image_path ↓
     input_image_path = 'image/woof.jpg'  # image/coral.jpg image/tiger.jpg
 ```
   
@@ -45,12 +44,10 @@ python3 demo_pre_seg__felz_slic.py
 ```
 
 
-
-
 ## Translate 翻译
 
 #### If you can understand English, then I know you can understand this line of words (and you see this line on GitHub.)
-#### 如果你可以看的懂中文，那么我对这个算法的分析写在知乎上了（或者你是从知乎过来的）
+#### 如果你可以看得懂中文，那么我对这个算法的分析写在知乎上了（或者你就是从知乎过来的）
 
 #### An implementation of **Unsupervised Image Segmentation by Backpropagation**
 #### 无监督图片语义分割，复现并魔改Github上的项目 https://zhuanlan.zhihu.com/p/68528056
