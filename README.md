@@ -37,9 +37,9 @@ python3 demo_origin.py --input image/woof.jpg
 Run this demo, and **press WASDQE on the keyboard** to adjust the parameters.
 The image show in the GUI, and the parameters show in terminal in real time.
 You could choose **Algorithm felz** or **Algorithm slic** by commenting the code.
-    * W,S --> parameter 1
-    * A,D --> parameter 2
-    * Q,E --> parameter 3
+* W,S --> parameter 1
+* A,D --> parameter 2
+* Q,E --> parameter 3
 ```
 python3 demo_pre_seg__felz_slic.py
 ```
